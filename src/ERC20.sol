@@ -98,7 +98,6 @@ contract ERC20{
             balances[_from] -= _value;
             _totalSupply -= _value;
         }
-
         emit Transfer(_from, address(0), _value);
     }
 
